@@ -33,25 +33,25 @@ function LandingPageScrollTrigger() {
     LandingPageScrollTrigger
         .from('#LandingPageWrapper nav #logo a', {
             opacity: 0, y: "100%", ease: 'power3.out', duration: 2.2,
-        }, 2)
+        }, 3)
         .from('#LandingPageWrapper nav #listitems li a', {
             opacity: 0, y: "100%", ease: 'power3.out', duration: 2.2, stagger: 0.5,
-        }, 2)
+        }, 3)
         .from('#LandingPageWrapper #intro h2 div span', {
             opacity: 0, y: "100%", ease: "power3.out", duration: 3.1, stagger: 0.5,
-        }, 0)
+        }, 0.5)
         .from('#LandingPageWrapper #intro h5 div span', {
             opacity: 0, y: "100%", ease: "power4.out", duration: 2.2, stagger: 0.5,
-        }, 1.2)
+        }, 1.5)
         .from('#LandingPageWrapper #social a span', {
             opacity: 0, y: "115%", ease: 'power3.out', duration: 1.3, stagger: 0.5,
-        }, 2)
+        }, 4)
         .from('#LandingPageWrapper #codeby p', {
             opacity: 0, y: "100%", ease: "power3.out", duration: 2.2, stagger: 0.5,
-        }, 2)
+        }, 5.5)
         .from('#LandingPageWrapper #scrolldown span p', {
             opacity: 0, y: "100%", ease: 'power2.out', duration: 1.3,
-        }, 3.8);
+        }, 6.5);
 };
 
 //---------------------/LandingPage---------------------

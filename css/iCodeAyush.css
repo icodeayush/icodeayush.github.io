@@ -58,28 +58,28 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: var(--FontH2);
   font-weight: 700;
-  color: var(--ColorLight1);
-  -webkit-animation: x 2.2s 0.22s steps(22, start) infinite alternate;
-  animation: x 2.2s 0.22s steps(22, start) infinite alternate;
+  color: var(--ColorDark2);
+  -webkit-animation: x 2.2s 0.4s steps(22, start) infinite alternate;
+  animation: x 2.2s 0.4s steps(22, start) infinite alternate;
   -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 @-webkit-keyframes x {
   from {
-    color: var(--ColorLight2);
+    color: var(--ColorDark2);
   }
   to {
-    color: var(--ColorDark2);
+    color: var(--ColorLight2);
   }
 }
 
 @keyframes x {
   from {
-    color: var(--ColorLight2);
+    color: var(--ColorDark2);
   }
   to {
-    color: var(--ColorDark2);
+    color: var(--ColorLight2);
   }
 }
 
@@ -212,6 +212,15 @@ body {
   font-weight: 300;
   color: var(--ColorLight3);
   cursor: default;
+  transition: color 0.618s ease
+}
+
+#LandingPageWrapper #intro h5:hover div span {
+  color: var(--ColorDark3);
+}
+
+#LandingPageWrapper #intro h5 div span:hover {
+  color: var(--ColorLight1);
 }
 
 #LandingPageWrapper #social {
