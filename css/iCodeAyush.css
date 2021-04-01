@@ -59,6 +59,7 @@ body {
   font-size: var(--FontH2);
   font-weight: 700;
   color: var(--ColorDark2);
+  cursor: default;
   -webkit-animation: x 2.2s 0.4s steps(22, start) infinite alternate;
   animation: x 2.2s 0.4s steps(22, start) infinite alternate;
   -webkit-animation-play-state: running;

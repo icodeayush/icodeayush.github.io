@@ -126,8 +126,8 @@ function MyWorksScrollTrigger() { // MyWorksScrollTrigger---------------------
             opacity: 0, y: "100%", ease: 'power3.out', duration: 2.2, stagger: "0.5",
         }, 1.3)
         .add(function () { // My Works WebPageA PageLinks---------------------
-            $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapAPage");
-            $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapACode");
+            $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapACode");
+            $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/Dora");
         }, 0);
 }
 
@@ -160,8 +160,8 @@ $('#MyWorksWrap nav .WebPageNavA').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapAPage");
-    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapACode");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapACode");
+    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/Dora");
 });
 $('#MyWorksWrap nav .WebPageNavB').mouseenter(function () {
     // My Works WebPageB Title Mouseenter Animation---------------------
@@ -192,8 +192,8 @@ $('#MyWorksWrap nav .WebPageNavB').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapBPage");
-    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapBCode");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapBCode");
+    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/BeeSoft");
 });
 $('#MyWorksWrap nav .WebPageNavC').mouseenter(function () {
     // My Works WebPageC Title Mouseenter Animation---------------------
@@ -224,8 +224,8 @@ $('#MyWorksWrap nav .WebPageNavC').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapCPage");
-    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapCCode");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapCCode");
+    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/TravelNow");
 });
 $('#MyWorksWrap nav .WebPageNavD').mouseenter(function () {
     // My Works WebPageD Title Mouseenter Animation---------------------
@@ -256,8 +256,8 @@ $('#MyWorksWrap nav .WebPageNavD').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapDPage");
-    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapDCode");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapDCode");
+    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapDPage");
 });
 $('#MyWorksWrap nav .WebPageNavE').mouseenter(function () {
     // My Works WebPageE Title Mouseenter Animation---------------------
@@ -288,8 +288,8 @@ $('#MyWorksWrap nav .WebPageNavE').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapEPage");
-    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapECode");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapECode");
+    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapEPage");
 });
 //---------------------/My Works---------------------
 
