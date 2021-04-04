@@ -33,10 +33,10 @@ function LandingPageScrollTrigger() {
     LandingPageScrollTrigger
         .from('#LandingPageWrapper nav #logo a', {
             opacity: 0, y: "100%", ease: 'power3.out', duration: 2.2,
-        }, 3)
+        }, 3.5)
         .from('#LandingPageWrapper nav #listitems li a', {
             opacity: 0, y: "100%", ease: 'power3.out', duration: 2.2, stagger: 0.5,
-        }, 3)
+        }, 3.5)
         .from('#LandingPageWrapper #intro h2 div span', {
             opacity: 0, y: "100%", ease: "power3.out", duration: 3.1, stagger: 0.5,
         }, 0.5)
