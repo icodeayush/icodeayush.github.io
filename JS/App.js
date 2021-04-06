@@ -126,7 +126,7 @@ function MyWorksScrollTrigger() { // MyWorksScrollTrigger---------------------
             opacity: 0, y: "100%", ease: 'power3.out', duration: 2.2, stagger: "0.5",
         }, 1.3)
         .add(function () { // My Works WebPageA PageLinks---------------------
-            $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapACode");
+            $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://codepen.io/icodeayush/pen/bGgWmyL");
             $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/Dora");
         }, 0);
 }
@@ -160,7 +160,7 @@ $('#MyWorksWrap nav .WebPageNavA').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapACode");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://codepen.io/icodeayush/pen/bGgWmyL");
     $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/Dora");
 });
 $('#MyWorksWrap nav .WebPageNavB').mouseenter(function () {
@@ -191,8 +191,8 @@ $('#MyWorksWrap nav .WebPageNavB').mouseenter(function () {
     gsap.to([WebPageNavA, WebPageNavC, WebPageNavD, WebPageNavE,], {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
-    // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapBCode");
+    // My Works WebPageB PageLinks---------------------
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://codepen.io/icodeayush/pen/QWdgXgB");
     $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/BeeSoft");
 });
 $('#MyWorksWrap nav .WebPageNavC').mouseenter(function () {
@@ -223,8 +223,8 @@ $('#MyWorksWrap nav .WebPageNavC').mouseenter(function () {
     gsap.to([WebPageNavA, WebPageNavB, WebPageNavD, WebPageNavE,], {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
-    // My Works WebPageA PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapCCode");
+    // My Works WebPageC PageLinks---------------------
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://codepen.io/icodeayush/pen/PoWjrra");
     $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/TravelNow");
 });
 $('#MyWorksWrap nav .WebPageNavD').mouseenter(function () {
@@ -255,7 +255,7 @@ $('#MyWorksWrap nav .WebPageNavD').mouseenter(function () {
     gsap.to([WebPageNavA, WebPageNavC, WebPageNavB, WebPageNavE,], {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
-    // My Works WebPageA PageLinks---------------------
+    // My Works WebPageD PageLinks---------------------
     $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapDCode");
     $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapDPage");
 });
@@ -287,7 +287,7 @@ $('#MyWorksWrap nav .WebPageNavE').mouseenter(function () {
     gsap.to([WebPageNavA, WebPageNavC, WebPageNavD, WebPageNavB,], {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
-    // My Works WebPageA PageLinks---------------------
+    // My Works WebPageE PageLinks---------------------
     $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://icodeayush.github.io/#MyWorksWrapECode");
     $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/#MyWorksWrapEPage");
 });
