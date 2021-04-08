@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+:root {
+  font-family: 'Open Sans', sans-serif;
+  /*-------------Colors -- Black to White (HSL) lightness 0% 20% 25% 50% 75% 80% 100%------------- */
+  --ColorDark1: hsl(0, 0%, 0%);
+  --ColorDark2: hsl(0, 0%, 20%);
+  --ColorDark3: hsl(0, 0%, 25%);
+  --ColorMid: hsl(0, 0%, 50%);
+  --ColorLight3: hsl(0, 0%, 75%);
+  --ColorLight2: hsl(0, 0%, 80%);
+  --ColorLight1: hsl(0, 0%, 100%);
+  /*-------------FontSize -- Golden Ratio (1.618) Base Size 13px------------- */
+  --FontH1: 233.25px;
+  --FontH2: 144.16px;
+  --FontH3: 89.10px;
+  --FontH4: 55.07px;
+  --FontH5: 34.03px;
+  --FontParagraph: 21.03px;
+  --FontSubtitle: 13px;
+  --IconSize: 25px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--ColorLight1);
+}
+
+body {
+  background: var(--ColorDark2);
+  pointer-events: none;
+}
+
+/*-------------Error404------------- */
+
+#Error404Wrap {
+  width: 100vw;
+  height: 100vh;
+  background: url(../img/Error404.jpg) center;
+  background-size: cover;
+  opacity: 0;
+}
+
+#Error404Wrap nav {
+  display: block;
+}
+
+#Error404Wrap nav #logo {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  overflow: hidden;
+  height: 13%;
+}
+
+#Error404Wrap nav #logo a {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: var(--FontH3);
+  font-weight: 700;
+  color: var(--ColorLight1);
+  text-decoration: none;
+}
+
+#Error404Wrap nav #listitems {
+  position: absolute;
+  z-index: 2;
+  right: 5%;
+  top: 11.5%;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 3.5%;
+}
+
+#Error404Wrap nav #listitems li {
+  list-style: none;
+}
+
+#Error404Wrap nav #listitems li a {
+  font-size: var(--FontParagraph);
+  font-weight: 300;
+  color: var(--ColorLight3);
+  display: block;
+  text-decoration: none;
+  transition: color 0.618s ease, margin-top 0.618s ease;
+}
+
+#Error404Wrap nav #listitems li a #FadeIn {
+  color: var(--ColorLight3);
+  opacity: 0;
+  transition: color 0.618s ease, opacity 0.618s ease;
+}
+
+#Error404Wrap nav #listitems li a:hover #FadeIn {
+  color: var(--ColorLight1);
+  opacity: 1;
+  transition: color 0.618s ease, opacity 0.618s ease;
+}
+
+#Error404Wrap nav #listitems li:nth-child(1):hover a {
+  margin-top: -47.5%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap nav #listitems li:nth-child(2):hover a {
+  margin-top: -38.5%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap nav #listitems li:nth-child(3):hover a {
+  margin-top: -37.5%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+#Error404Wrap section h3 {
+  margin-left: 5%;
+  overflow: hidden;
+}
+
+#Error404Wrap section h3 span {
+  display: block;
+  font-size: var(--FontH3);
+  font-weight: 600;
+  color: var(--ColorLight3);
+  cursor: default;
+}
+
+#Error404Wrap #GoBack {
+  position: absolute;
+  bottom: 33.5%;
+  left: 5%;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+#Error404Wrap #GoBack span {
+  display: block;
+  font-size: var(--FontH5);
+  font-weight: 400;
+  color: var(--ColorLight2);
+  transition: color 0.618s ease;
+}
+
+#Error404Wrap #GoBack span:hover{
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap #social {
+  position: absolute;
+  left: 5%;
+  bottom: 11.8%;
+  width: 25.2%;
+  height: 3.5%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#Error404Wrap #social a {
+  text-decoration: none;
+}
+
+#Error404Wrap #social a span {
+  display: block;
+  font-size: var(--FontParagraph);
+  font-weight: 300;
+  color: var(--ColorLight3);
+  transition: margin-top 0.618s ease, color 0.618s ease;
+}
+
+#Error404Wrap #social a span #FadeIn {
+  opacity: 0;
+  transition: opacity 0.618s ease;
+}
+
+#Error404Wrap #social a:hover span #FadeIn {
+  opacity: 1;
+}
+
+#Error404Wrap #social a:nth-child(1):hover span {
+  margin-top: -42%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap #social a:nth-child(2):hover span {
+  margin-top: -41%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap #social a:nth-child(3):hover span {
+  margin-top: -33%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap #social a:nth-child(4):hover span {
+  margin-top: -34%;
+  color: var(--ColorLight1);
+}
+
+#Error404Wrap #codeby {
+  position: absolute;
+  z-index: 2;
+  bottom: 11.2%;
+  right: 5%;
+  display: flex;
+  overflow: hidden;
+  height: 4%;
+}
+
+#Error404Wrap #codeby p {
+  font-size: var(--FontParagraph);
+  white-space: pre;
+  font-weight: 300;
+  color: var(--ColorLight1);
+  cursor: default;
+  transition: color 0.618s ease, margin-top 0.618s ease;
+}
+
+#Error404Wrap #codeby:hover p {
+  color: var(--ColorLight3);
+}
+
+#Error404Wrap #codeby p span {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#Error404Wrap #codeby p span #FadeIn {
+  opacity: 0;
+  transition: opacity 0.618s ease;
+}
+
+#Error404Wrap #codeby:hover p span #FadeIn {
+  opacity: 1;
+}
+
+#Error404Wrap #codeby:hover p:nth-child(2) {
+  margin-top: -14%;
+}
+
+#Error404Wrap #codeby p span a {
+  text-decoration: none;
+}
+
+/*-------------/Error404------------- */
+
+/*-------------@media (max-width: 1920px)------------- */
+
+@media (max-width: 1920px) {
+  :root {
+    /*-------------FontSize (PX to VW Conversion With Viewport Width 1536px)------------- */
+    --FontH1: 15.186vw;
+    --FontH2: 9.385vw;
+    --FontH3: 5.801vw;
+    --FontH4: 3.585vw;
+    --FontH5: 2.215vw;
+    --FontParagraph: 1.369vw;
+    --FontSubtitle: 0.846vw;
+    --IconSize: 1.628vw;
+  }
+}
