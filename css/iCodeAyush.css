@@ -25,6 +25,11 @@
   display: none;
 }
 
+::selection {
+  color: var(--ColorDark2);
+  background: var(--ColorLight2);
+}
+
 * {
   margin: 0;
   padding: 0;
