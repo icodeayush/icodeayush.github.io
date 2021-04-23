@@ -256,8 +256,8 @@ $('#MyWorksWrap nav .WebPageNavD').mouseenter(function () {
         background: '#808080', ease: 'power4.out', duration: 1.3,
     })
     // My Works WebPageD PageLinks---------------------
-    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "./Pages/Error404/Error404.html");
-    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "./Pages/Error404/Error404.html");
+    $("#MyWorksWrap #PageLinks a:nth-child(1)").attr("href", "https://codepen.io/icodeayush/pen/vYgdBVr");
+    $("#MyWorksWrap #PageLinks a:nth-child(2)").attr("href", "https://icodeayush.github.io/TheWeekndGSAPScrollEffect/");
 });
 $('#MyWorksWrap nav .WebPageNavE').mouseenter(function () {
     // My Works WebPageE Title Mouseenter Animation---------------------
